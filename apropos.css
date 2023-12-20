@@ -221,3 +221,30 @@ header {
 
 }
 
+
+/* -----  FOOTER----- */
+.footer {
+    margin-top: 5%;
+
+}
+
+.footer .row {
+    display: flex;
+    margin: 0 10%;
+    width: 75%;
+    background: var(--black-color);
+    color: #000000;
+
+}
+
+
+
+
+.footer .left-img {
+    padding: 23px 179px;
+}
+
+.footer .left-img img {
+    width: 183px;
+
+}
