@@ -1,0 +1,181 @@
+/* Route css */
+
+
+:root {
+    --white-color: #f8f7f7;
+    --grid-color: #4e4d4d;
+    --black-color: #000000;
+
+    --primary-color: #f6bb81 !important;
+    --secondary-color: ;
+    --bg-color: #e9ebec;
+    --border-color: #DEBD84;
+    --titre-color: #A6753F;
+    --font-titre: "Aleo", Helvetica, Arial, sans-serif;
+
+    --body-font-family: 'DM Sans', sans-serif;
+
+}
+body {
+    background-color: var(--bg-color);
+    font-family: var(--body-font-family);
+}
+
+section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+ul li {
+
+    display: inline-block;
+
+    line-height: normal;
+
+}
+
+main {
+    display: block;
+
+
+}
+
+/* -----HEADER----- */
+header {
+    padding: 0;
+    left: 0;
+    margin: 0;
+    margin-top: -1.1vh;
+    padding-bottom: 13vh;
+
+
+
+
+}
+
+.navbar {
+    height: 12vh;
+    background: var(--primary-color);
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+
+
+}
+
+.navbar .logo img {
+    width: 112px;
+    margin-left: 18vh;
+}
+
+.navbar ul {
+    display: flex;
+    text-decoration: none;
+    padding-left:880px;
+    width: 100%;
+
+
+}
+
+.navbar ul li {
+
+    text-decoration: none;
+    line-height: normal;
+    display: inline-block;
+    padding: 0 14px;
+    width: 100%;
+
+
+}
+
+.navbar ul .contact {
+
+    border: 1px solid #000000;
+    border-radius: 16px;
+    padding: 6px 14px;
+
+
+}
+
+.navbar ul li a {
+
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+
+/* -----  BANNIER GRID GAP----- */
+.bannier {
+    background: var(--primary-color);
+
+}
+
+.bannier .row {
+    display: flex;
+
+}
+
+
+.bannier .left-img {
+    height: 537px;
+    width: 954px;
+}
+
+.bannier .left-img img {
+    height: 537px;
+    width: 100%;
+}
+
+.bannier .right-descpt {
+    padding: 82px 30px;
+    display: block;
+    font-family: var(--font-titre);
+}
+
+
+.bannier .right-descpt .title {
+
+    font-size: 28px;
+}
+
+.bannier .right-descpt p {
+    width: 314px;
+    font-size: 17px;
+    color: var(--grid-color);
+}
+
+
+.bannier .right-descpt .link {
+    width: 310px;
+    font-size: 17px;
+    color: var(--grid-color);
+    padding: 12px;
+    background: var(--black-color);
+    margin: 52px 0;
+    color: var(--white-color);
+}
+
+
+
+.bannier .right-descpt .link span {
+    width: 314px;
+    font-size: 17px;
+    padding: 0 92px;
+
+}
+
+.bannier .right-descpt .link i {
+    font-size: 27px;
+    padding: 0 10px;
+
+}
+
+/* ----- FIN BANNIER----- */
